@@ -13,17 +13,16 @@
  * Performance: http://jsperf.com/random-string-for-loop-vs-replace
  */
 var randStr = function (len, chars) {
-    len = len || randStr.len || 32;
-    chars = chars || randStr.chars || '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghiklmnopqrstuvwxyz';
-    
-    var str = '';
-    
-    for (var i = 0; i < len; i++) {
-        str += chars.charAt(Math.random() * chars.length);
-    }
-    
-    return str;
+  len = len || randStr.len || 32;
+  chars = chars || randStr.chars || '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghiklmnopqrstuvwxyz';
+  
+  var str = '';
+  
+  for (var i = 0; i < len; i++) {
+    str += chars.charAt(Math.random() * chars.length);
   }
+  
+  return str;
 };
 
 randStr.len = NaN;
