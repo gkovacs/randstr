@@ -29,4 +29,4 @@ var randStr = function (len, chars) {
 randStr.len = NaN;
 randStr.chars = '';
 
-exports = randStr;
+module.exports = randStr;
