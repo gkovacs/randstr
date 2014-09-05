@@ -10,7 +10,8 @@
  *  The method charAt will convert its first parameter to an integer by floor.
  *  See the specification: http://www.ecma-international.org/ecma-262/5.1/#sec-15.5.4.4
  *
- * Performance: http://jsperf.com/random-string-for-loop-vs-replace
+ * Performance:
+ *  http://jsperf.com/random-string-for-loop-vs-replace
  */
 var randStr = function (len, chars) {
   len = len || randStr.len || 32;
