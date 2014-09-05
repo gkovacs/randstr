@@ -10,7 +10,7 @@ To Install randstr, use [npm](http://github.com/isaacs/npm)
 
 ```bash
 $ npm install randstr
-````
+```
 
 Usage
 -----
