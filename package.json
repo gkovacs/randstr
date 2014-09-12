@@ -1,6 +1,6 @@
 {
   "name": "randstr",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple function can be used to generate a random string with the specified length. ",
   "author": "Alex Chao",
   "main": "randstr.js",
@@ -8,7 +8,7 @@
     "type": "git",
     "url": "git://github.com/Alex1990/randstr.git"
   },
-  "homepage": "https://github.com/Alex/randstr",
+  "homepage": "https://github.com/Alex1990/randstr",
   "keywords": [
     "random",
     "string",
