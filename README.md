@@ -6,7 +6,7 @@ A simple function can be used to generate a random string with the specified len
 Installation
 -------
 
-To Install randstr, use [npm](http://github.com/isaacs/npm)
+To install randstr, use [npm](http://github.com/isaacs/npm)
 
 ```bash
 $ npm install randstr
