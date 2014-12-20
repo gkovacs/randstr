@@ -13,9 +13,9 @@
  * Performance:
  *  http://jsperf.com/random-string-for-loop-vs-replace
  */
-var randStr = function (len, chars) {
-  len = len || randStr.len || 32;
-  chars = chars || randStr.chars || '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghiklmnopqrstuvwxyz';
+var randstr = function (len, chars) {
+  len = len || randstr.len || 32;
+  chars = chars || randstr.chars || '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghiklmnopqrstuvwxyz';
   
   var str = '';
   
@@ -26,7 +26,9 @@ var randStr = function (len, chars) {
   return str;
 };
 
-randStr.len = NaN;
-randStr.chars = '';
+randstr.len = NaN;
+randstr.chars = '';
 
-module.exports = randStr;
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = randstr;
+}

@@ -12,8 +12,16 @@ To install randstr, use [npm](http://github.com/isaacs/npm)
 $ npm install randstr
 ```
 
+For browsers, use [bower](http://bower.io)
+
+```bash
+$ bower install randstr
+```
+
 Usage
 -----
+
+For node.js:
 
 ```js
 var randstr = require('randstr');
@@ -39,6 +47,16 @@ randstr(6);
 
 randstr(6, '0123456789');
 // >> "823748"
+```
+
+For browsers:
+
+```html
+<script src="bower_components/randstr/randstr.js"></script>
+<script>
+randstr();
+// >> "xtYRPnR8rM0M6izYTNv8gJd07thPIyN9"
+</script>
 ```
 
 LICENSE

@@ -1,6 +1,6 @@
 {
   "name": "randstr",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple function can be used to generate a random string with the specified length. ",
   "author": "Alex Chao",
   "main": "randstr.js",
